@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Mukta:wght@700&family=Orbitron&family=Oswald:wght@500;700&family=Raleway:wght@300&family=Roboto+Condensed:wght@700&family=Roboto+Slab:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+#navbarMonstera {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px 250px;
+  /* font-family: "Poppins"; */
+}
+#navFirst {
+  width: 30px;
+  transform: translateX(-220px);
+}
+#navMid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#navMid > * {
+  padding: 0 40px;
+  font-weight: 200;
+}
+
+#navMid div:first-child {
+  text-decoration: underline 2px;
+}
+
+#navEnd {
+  display: flex;
+  align-items: center;
+  transform: translateX(100px);
+}
+#navEnd > * {
+  padding: 0 17px;
+}
+#midWhole {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#midWholePart11 {
+  margin-top: 140px;
+  margin-left: 40px;
+  line-height: 30px;
+}
+#monstera {
+  font-size: 80px;
+  font-weight: 800;
+}
+#midWholePart11 div ul li:nth-child(3),
+#midWholePart11 div ul li:nth-child(4) {
+  margin-top: 12px;
+  line-height: 18px;
+}
+#midWholePart12 {
+  margin: 0 280px;
+  margin-top: 30px;
+  transform: translateX(-250px);
+}
+#midWholePart121 {
+  display: flex;
+  background-color: #106433;
+  color: white;
+  margin-right: 330px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 28px;
+  padding: 8px 10px;
+}
+#midWholePart121 h1 {
+  font-weight: 200;
+}
+#midWholePart122 {
+  margin-left: 15px;
+  transform: scale(0.8);
+}
+#imgMain {
+  height: 500px;
+  width: auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#midWholePart13 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 260px;
+  margin-top: 60px;
+  transform: translateX(-240px);
+}
+.midWholePart13Parts {
+  display: flex;
+  margin: 0 16px;
+  justify-content:space-between;
+
+}
+#feeding, #light, #care{
+  height: 70px;
+}
+.midWholePart13Parts h4{
+  font-weight: 800;
+}
+.midWholePart13Parts>div:last-child{
+  margin-left: 4px;
+  padding-left:20px; 
+}
+.midWholePart13Parts p{
+  font-size: 12px;
+  /* background-color: #111111; */
+}
